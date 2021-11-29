@@ -1,0 +1,42 @@
+html, body {
+  color: var(--Gray90);
+  background-color: var(--Gray00);
+}
+
+.bg-default {
+  background-color: var(--Gray00);
+}
+
+.btns-wrap {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 4px;
+
+  &.btns-wrap-full {
+    .btn {
+      flex: 1;
+    }
+  }
+}
+
+.info {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-top: 2px;
+  color: var(--Gray60);
+
+  .info__text {
+    padding-right: 4px;
+    word-break: keep-all;
+  }
+
+  .btn-info {
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+    text-indent: -9999px;
+    background: var(--ic16CommonQuestion) center/cover no-repeat;
+  }
+}

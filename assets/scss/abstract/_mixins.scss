@@ -1,0 +1,24 @@
+@mixin ellipsis () {
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin transform ($contents) {
+  -webkit-transform: $contents;
+  -moz-transform: $contents;
+  -ms-transform: $contents;
+  -o-transform: $contents;
+  transform: $contents;
+}
+
+@mixin transition ($contents) {
+  -webkit-transition: $contents;
+  -moz-transition: $contents;
+  -o-transition: $contents;
+  transition: $contents;
+}
+
+@mixin bgDefault {
+  background-color: var(--Gray00);
+}

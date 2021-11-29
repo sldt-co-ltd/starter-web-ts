@@ -1,0 +1,47 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    // safe area 영역의 값 변수 설정
+    --safeTopHeight: env(safe-area-inset-top);
+    --safeBottomHeight: env(safe-area-inset-bottom);
+
+    // common
+    --ic30CommonArrowLeft: url('static/images/icon/ic-30-common-arrow-left.svg');
+    --ic30CommonClose: url('static/images/icon/ic-30-common-close.svg');
+    --dkIc30CommonClose: url('static/images/icon/dk-ic-30-common-close.svg');
+    --iconClearInput: url('static/images/ico_20_clear_input.png');
+    --iconSearchBlack20: url('static/images/ico_20_search_black.png');
+    --ic24MarketSafe: url('static/images/icon/ic-24-market-safe.svg');
+
+    // product detail
+    --ic12CommonArrowBotton: url('static/images/icon/ic-12-common-arrow-bottom.svg');
+    --ic12CommonArrowBottonWeekGray: url('static/images/icon/ic-12-common-arrow-bottom-week-gray.svg');
+    --ic30CommonFavoriteOff: url('static/images/icon/ic-30-common-favorite-off.svg');
+    --ic30CommonFavoriteOn: url('static/images/icon/ic-30-common-favorite-on.svg');
+    --ic30CommonMore: url('static/images/icon/ic-30-common-more.svg');
+    --ic30CommonShare: url('static/images/icon/ic-30-common-share.svg');
+    --ic20MarketTime: url('static/images/icon/ic-20-market-time.svg');
+    --ic20MarketLike: url('static/images/icon/ic-20-market-like.svg');
+    --ic16CommonQuestion: url('static/images/icon/ic-16-common-question.svg');
+    --ic20MarketAddress: url('static/images/icon/ic-20-market-address.svg');
+    --ic20MarketCategory: url('static/images/icon/ic-20-market-category.svg');
+    --ic20MarketGood: url('static/images/icon/ic-20-market-shop-good.svg');
+    --ic20MarketBest: url('static/images/icon/ic-20-market-shop-best.svg');
+    --ic20MarketBad: url('static/images/icon/ic-20-market-shop-bad.svg');
+    --ic30CommonMessage: url('static/images/icon/ic-30-common-message.svg');
+    --ic20MarketMessage: url('static/images/icon/ic-20-market-message.svg');
+    --ic20MarketSafe: url('static/images/icon/ic-20-market-safe.svg');
+
+    // product order
+    --ic40MarketSafe: url('static/images/icon/ic-40-market-safe.svg');
+    --ic20CommonArrowRight: url('static/images/icon/ic-20-common-arrow-right.svg');
+    --ic20MarketCardPlus: url('static/images/icon/ic-20-market-card-plus.svg');
+    --icNaverpay: url('static/images/icon/ic-naverpay.svg');
+    --icNaverpayWhite: url('static/images/icon/ic-npay-white.svg');
+
+    // product register
+    --ic16CommonNoticeWhite: url('static/images/icon/ic-16-common-notice-white.svg');
+    --ic20CommonArrowRightWeekGray: url('static/images/icon/ic-20-common-arrow-right-week-gray.svg');
+    --ic20MarketImgAdd: url('static/images/icon/ic-20-market-img-add.svg');
+    --ic16MarketDelete: url('static/images/icon/ic-16-market-delete.svg');
+  }
+}
